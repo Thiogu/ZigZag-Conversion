@@ -31,3 +31,13 @@ Example 3:
 
 Input: s = "A", numRows = 1
 Output: "A"
+
+
+How i solved this:
+do a for loop from 1 to numrow
+e:g 4 rows: put character from string in row 1,2,3,4
+
+then do another for -loop from numrow-1 to numrow-numrow+1
+e.g 4 rows: put character from string in row 3,2
+
+I previously did 3,2,1 but that will cause a repeat in row 1 consecutively. Hope this helps!
